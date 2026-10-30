@@ -1,12 +1,79 @@
-<!DOCTYPE html>
-<html lang="bt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifólio de Programação-Heloise Gabrieli Juchem</title>
-    <link rel="stylesheet" href="css/style.css"> 
-</head>
-<body>
-    <h1>Bem-vindo ao meu Portifólio</h1>
-</body>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#061329" />
+    <meta name="description" content="Tecnologias de programação e ferramentas de desenvolvimento." />
+    <title>Tecnologias da Programação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Inter:wght@400;500;600&family=Montserrat:wght@700;800;900&family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <main class="portfolio">
+      <header class="hero" aria-labelledby="page-title">
+        <h1 class="hero-title" id="page-title">
+          <span class="hero-title-small">TECNOLOGIAS DA</span>
+          <span class="hero-title-large">PROGRAMAÇÃO</span>
+        </h1>
+        <p class="hero-description">
+          <span>As tecnologias de programação são as ferramentas e linguagens&nbsp; que permitem</span>
+          <span>criar sites, aplicativos, sistemas, jogos e muito mais.</span>
+        </p>
+      </header>
+
+      <section class="section-panel languages" aria-labelledby="languages-title">
+        <img class="panel-outline" src="assets/14-2.svg" alt="" aria-hidden="true" />
+        <h2 class="section-title language-title" id="languages-title">LINGUAGENS DE PROGAMAÇÃO</h2>
+        <div class="language-grid">
+          <article class="language-card language-html">
+            <img class="language-image" data-node-id="16-10" src="assets/16-10.webp" alt="Logotipos de HTML5, CSS3 e JavaScript" decoding="async" />
+            <h3>HTML, CSS e JavaScript</h3>
+            <p>HTML: &nbsp;Estrutura das páginas.<br />CSS: Cores, estilos e aparência.<br />JavaScript: Interatividade e funcionalidade</p>
+          </article>
+          <article class="language-card language-python">
+            <img class="language-image" data-node-id="18-4" src="assets/18-4.webp" alt="Logotipo do Python" decoding="async" />
+            <h3>Python</h3>
+            <p>Usada em automação, inteligência artificial, análise de dados e dsenvolvimento de sistema.</p>
+          </article>
+          <article class="language-card language-java">
+            <img class="language-image" data-node-id="21-3" src="assets/21-3.webp" alt="Logotipo do Java" decoding="async" />
+            <h3>Java</h3>
+            <p>Utilizada no desenvolvimento aplicações, sistemas empresariais e aplicativos Android.</p>
+          </article>
+          <article class="language-card language-csharp">
+            <img class="language-image" data-node-id="21-11" src="assets/Logo moderno da linguagem C em azul.png" alt="Logotipo do C sharp" decoding="async" />
+            <h3>C</h3>
+            <p>C é uma linguagem usada para criar softwares e sistemas com alto desempenho.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-panel tools" aria-labelledby="tools-title">
+        <img class="panel-outline" src="assets/21-14.svg" alt="" aria-hidden="true" />
+        <h2 class="section-title tools-title" id="tools-title">FERRAMENTAS DE DESENVOLVIMENTO</h2>
+        <div class="tools-content">
+          <article class="database-tool">
+            <div class="database-image-wrap">
+              <img data-node-id="22-35" src="assets/22-35.webp" alt="Logotipos de MySQL, MongoDB e PostgreSQL" decoding="async" />
+            </div>
+            <p class="database-description">MySQL: Armazena e organiza informações.<br /><br />MongoDB: Banco de dados orientado a documentos.<br /><br />PostgreSQL: Gerencia dados de sistemas.<br /></p>
+          </article>
+          <div class="web-tools">
+            <article class="tool-row bootstrap-tool">
+              <img data-node-id="25-40" src="assets/25-40.webp" alt="Logotipo do Bootstrap" decoding="async" />
+              <p>Bootstrap: Facilita a criação de páginas responsivas.</p>
+            </article>
+            <article class="tool-row php-tool">
+              <img data-node-id="25-44" src="assets/25-44.webp" alt="Logotipo do PHP" decoding="async" />
+              <p>PHP é uma linguagem de programação utilizada principalmente no desenvolvimento de sites e sistemas web dinâmicos.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
